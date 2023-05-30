@@ -33,6 +33,7 @@ public class Kaidan100monogatari {
             for (int j = 0; j < lines.length; j++) {
                 lines[j] = lines[j].replace(before, after);
             }
+            // この行の置換結果
             System.out.println(lines[i] + "\r\n");
         }
         sc.close();
